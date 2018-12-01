@@ -1,7 +1,7 @@
 #content
 {
-    font-family: OptimusPrinceps;
-    font-size: 30px;
+    font-family: Philosopher-Regular;
+    font-size: 22px;
     line-height: 1.35em;
     letter-spacing: .05em;
     max-width: 700px;
@@ -32,6 +32,18 @@ input[type=text]
     outline: none;
     letter-spacing: .05em;
     color: white;
+}
+
+#touch
+{
+    padding-left: 100px;
+}
+
+#eemail
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 input[type=text]:focus

@@ -1,6 +1,6 @@
 #content 
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: Philosopher-Regular;
     font-size: 20px;
     color: #dbdbdb;
     line-height: 1.3em;
@@ -9,6 +9,7 @@
     max-width: 700px;
     position: relative;
     margin-bottom: 12%;
+    text-align: justify;
 }
 
 #about

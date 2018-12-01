@@ -1,0 +1,335 @@
+section
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 8%;
+    
+}
+
+#content
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+#team
+{
+    color: white;
+    text-shadow: 0px 0px 10px #ed8d76;
+}
+
+.profile
+{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    
+    width: 200px;
+    height: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    min-width: 200px;
+    
+    border: double 5px #571515;
+}
+
+.profile img
+{
+    width: 100%;
+    position: absolute;
+}
+
+.text
+{
+    font-family: Philosopher-Regular;
+    font-size: 28px;
+    position: absolute;
+/*    text-align: center;*/
+}
+
+#surname
+{
+    color: rgba(196, 196, 196, 0);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+#name
+{
+    line-height: 1em;
+    letter-spacing: .02em;
+    font-size: 24px;
+    top: 20px;
+}
+
+#r
+{
+    font-size: 18px;
+    margin-top: 0px;
+    letter-spacing: .05em;
+}
+
+#g
+{
+    font-size: 18px;
+    margin-top: 0px;
+    letter-spacing: .05em;
+}
+
+#b
+{
+    font-size: 18px;
+    margin-top: 0px;
+    letter-spacing: .05em;
+}
+
+
+
+#link
+{
+/*    margin-top: 76px;  */
+    bottom: 20px;
+}
+
+
+
+/* ICONS */
+.fa
+{
+  padding: 7px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+
+
+.fa-youtube
+{
+   background-color: #FF0000;
+   color: white;
+    
+   -webkit-filter: opacity(0);
+    filter: opacity(0);
+    
+   -webkit-transition: all 0.15s linear;
+   -moz-transition: all 0.15s linear;
+   -o-transition: all 0.15s linear;
+   transition: all 0.15s linear; 
+   padding-right: 8.1px;
+   padding-left: 5.9px;
+   margin-top: 1px;
+    
+}
+
+.fa-artstation
+{
+    background-color: rgb(18, 29, 33);
+    color: rgb(19, 175, 240);
+    
+    -webkit-filter: opacity(0);
+    filter: opacity(0);
+    
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear; 
+}
+
+.fa-twitter
+{
+    
+  background-color: rgba(85, 172, 238, 1);
+  color: rgba(255, 255, 255, 1);  
+  
+  -webkit-filter: opacity(0);
+    filter: opacity(0);
+    
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all 0.15s linear; 
+}
+
+.fa-linkedin
+{
+  background: #007bb5;
+  color: white;
+  
+  -webkit-filter: opacity(0);
+    filter: opacity(0);
+    
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all 0.15s linear;  
+}
+
+.fa-github
+{
+  background: #333;
+  color: white;
+  
+  -webkit-filter: opacity(0);
+    filter: opacity(0);
+    
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all 0.15s linear;  
+}
+
+
+#txt
+{
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 22px;
+    word-spacing: 5px;
+    letter-spacing: .05em;
+    text-shadow:
+    -0px -1px 0 #000,  
+    2px -2px 0 #000,
+    -1px 1px 0 #000,
+     2px 1px 0 #000; 
+}
+
+
+.profile .text
+{
+    color: rgba(255, 255, 255, 0);
+    cursor: default;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover .text
+{
+    color: white;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover .fa-youtube
+{
+    -webkit-filter: opacity(1);
+    filter: opacity(1);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover .fa-artstation
+{
+    -webkit-filter: opacity(1);
+    filter: opacity(1);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover .fa-twitter
+{
+    -webkit-filter: opacity(1);
+    filter: opacity(1);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover .fa-linkedin
+{
+    -webkit-filter: opacity(1);
+    filter: opacity(1);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover .fa-github
+{
+    -webkit-filter: opacity(1);
+    filter: opacity(1);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover #surname
+{
+    color: #b5b5b5;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover #r
+{
+    color: #ba3737;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover #g
+{
+    color: #749b3e;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.profile:hover #b
+{
+    color: #4dacbc;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+
+.profile img
+{
+    -webkit-filter: brightness(100%);
+    filter:  brightness(100%);
+    -webkit-transition: 0.15s linear;
+    -moz-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+}
+
+.profile:hover img
+{
+   -webkit-filter: brightness(30%);
+    filter:  brightness(30%);
+    -webkit-transition: 0.15s linear;
+    -moz-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+}

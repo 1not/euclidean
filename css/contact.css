@@ -1,0 +1,138 @@
+#content
+{
+    font-family: OptimusPrinceps;
+    font-size: 30px;
+    line-height: 1.35em;
+    letter-spacing: .05em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contact
+{
+    color: white;
+    text-shadow: 0px 0px 10px #ed8d76;
+}
+
+input[type=text]
+{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4.5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px #b7b7b7;
+    outline: none;
+    letter-spacing: .05em;
+    color: white;
+}
+
+input[type=text]:focus
+{
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#message
+{ 
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(0, 0, 0, 0);
+    border: solid 1px #b7b7b7;
+    outline: none;
+    letter-spacing: .05em;
+    resize: none;
+    color: white;
+    padding-top: 5px;
+}
+
+input[type=text]:focus::-webkit-input-placeholder
+{
+    color: rgba(0, 0, 0, 0);
+}
+
+#message:focus::-webkit-input-placeholder
+{
+    color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-input-placeholder
+{
+    color: #b7b7b7;
+}
+
+::-moz-placeholder
+{
+    color:#b7b7b7;
+}
+
+:-moz-placeholder
+{
+    color: #b7b7b7;
+}
+
+:-ms-input-placeholder
+{
+    color: #b7b7b7;
+}
+
+input[type=submit]
+{
+    display: block;
+    margin: 0 auto;
+    font-family: OptimusPrinceps;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    width: 322px; 
+    padding-top: 4px;
+    padding-bottom: 0px;
+    height: 37px;
+    letter-spacing: 5px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; 
+    background-color: #b7b7b7;
+    color: #1c1c1c;
+    font-weight: bold;
+    /*background-image: radial-gradient(circle, rgb(17, 17, 17, 0.2), );*/
+    /*background: radial-gradient(circle, #a5a5a5, #111111);*/
+    margin-bottom: 12%;
+}
+
+input[type=submit]:hover
+{
+    background-color: white;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#txt
+{
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 22px;
+    word-spacing: 5px;
+    letter-spacing: .05em;
+}

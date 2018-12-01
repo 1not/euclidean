@@ -6,6 +6,7 @@
     letter-spacing: .05em;
     max-width: 700px;
     margin: 0 auto;
+    margin-bottom: 12%;
 }
 
 #contact
@@ -36,11 +37,13 @@ input[type=text]
 
 #touch
 {
-    padding-left: 100px;
+    padding-left: 13%;
+    padding-right: 13%;
 }
 
 #eemail
 {
+    margin-top: 10%;
     text-align: center;
     font-weight: bold;
     font-size: 23px;
@@ -128,7 +131,6 @@ input[type=submit]
     font-weight: bold;
     /*background-image: radial-gradient(circle, rgb(17, 17, 17, 0.2), );*/
     /*background: radial-gradient(circle, #a5a5a5, #111111);*/
-    margin-bottom: 12%;
 }
 
 input[type=submit]:hover
